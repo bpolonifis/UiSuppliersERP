@@ -1,0 +1,15 @@
+<div class="form-froup row">
+
+    <label class="col-sm-2 col-form-label">Supplier Category</label>
+    <div class="col-sm-10">
+        <input type="text" class="form-control" [(ngModel)]="Category"
+        placeholder="Enter Category">
+    </div>
+</div>
+<button (click)="addSupplierCategory()" *ngIf="supcategory.SupplierCategoryId==0" class="btn btn-primary">
+    Add
+</button>
+
+<button (click)="updateSupplierCategory()" *ngIf="supcategory.SupplierCategoryId!=0" class="btn btn-primary">
+    Update
+</button>

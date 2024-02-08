@@ -1,0 +1,69 @@
+
+<div class="d-flex flex-row bd-highlight mb-3">
+<div class="form-froup row" style="width:60%">
+
+    <label class="col-sm-2 col-form-label">Full Name</label>
+    <div class="col-sm-10">
+        <input  type="text" class="form-control" [(ngModel)]="FullName"
+        placeholder="Enter Full Name">
+        
+    </div>
+    <label class="col-sm-2 col-form-label">AFM</label>
+    <div class="col-sm-10">
+        <input type="text" class="form-control" [(ngModel)]="AFM"
+        placeholder="Enter AFM">
+    </div>
+
+    <label class="col-sm-2 col-form-label">Address</label>
+    <div class="col-sm-10">
+        <input type="text" class="form-control" [(ngModel)]="Address"
+        placeholder="Enter Address">
+    </div>
+    <label class="col-sm-2 col-form-label">Email</label>
+    <div class="col-sm-10">
+        <input type="text" class="form-control" [(ngModel)]="Email"
+        placeholder="Enter Email">
+    </div>
+
+    <label class="col-sm-2 col-form-label">Phone</label>
+    <div class="col-sm-10">
+        <input type="text" class="form-control" [(ngModel)]="Phone"
+        placeholder="Enter Phone">
+    </div>
+
+    <label class="col-sm-2 col-form-label">Active</label>
+    <div class="col-sm-10">
+        <select class="form-control" [(ngModel)]="Active"
+        placeholder="Select Active or Inactive">
+        <option>--Select--</option>
+        <option  [ngValue]="'True'">Yes</option>
+        <option  [ngValue]="'False'">No</option>
+    </select>
+       
+    </div>
+
+    <label class="col-sm-2 col-form-label">Category</label>
+    <div class="col-sm-10">
+        <select class="form-control" [(ngModel)]="CategoryId"
+        placeholder="Select Supplier Category">
+        <option>--Select--</option>
+        <option *ngFor="let supplierCategory of SupplierCategoriesList" [value]="supplierCategory.SupplierCategoryId">
+            {{supplierCategory.Category}}
+        </option>
+    </select>
+    </div>
+   
+</div>
+</div>
+<button (click)="addSupplier()" *ngIf="supplier.SupplierId==0" class="btn btn-primary">
+    Add
+</button>
+
+<button (click)="updateSupplier()" *ngIf="supplier.SupplierId!=0" class="btn btn-primary">
+    Update
+</button>
+
+
+
+
+
