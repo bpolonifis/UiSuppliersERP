@@ -1,5 +1,25 @@
 # UISuppliersERP
 
+
+## Install Front-End:
+    Download from repo link ().
+    Open in VS Code. 
+    Download extensions:
+    Download node.js from nodejs.org
+## Restart Changes
+    Close and Open, in order for the changes to take place: cmd, Visual Studio 2022 & Visual Code.
+
+## In cmd in windows,at cmd write: 
+    npm install -g npm 
+		npm -v
+		node -v
+## At VS Code in terminal: 
+    (cmd) cd to the project folder.
+    (cmd) ng build or npm run ng build.
+    (cmd) ng serve or npm run ng serve. 
+Ctrl + Click on the link in terminal. (presiquisite: Have the Back-End Project running correctly)
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
 
 ## Development server
