@@ -5,10 +5,11 @@ Simple Suppliers ERP, Front-End in Angular with CRUD on Database.
 
 ##Front-End:https://github.com/bpolonifis/UiSuppliersERP/
 
-## Install Front-End:
+## Install Front-End: 
     Download from repo link (https://github.com/bpolonifis/UiSuppliersERP/).
     Open in VS Code. 
-    Download extensions:
+    Download extensions: Angular Language service, Bootstrap 4 CDN Snippet, Bootstrap 4 Font awesaome 4 Font awesome 5 Free & Pro snippets,
+			Jasmine, Karma Problem Matcher, pretier code- formatter, Move TS, django, angular-cli.
     Download node.js from nodejs.org
 ## Restart Changes
     Close and Open, in order for the changes to take place: cmd, Visual Studio 2022 & Visual Code.
