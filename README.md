@@ -1,5 +1,5 @@
 # UISuppliersERP
-
+Simple Suppliers ERP, Front-End in Angular with CRUD on Database.
 
 ## Install Front-End:
     Download from repo link ().
@@ -10,13 +10,13 @@
     Close and Open, in order for the changes to take place: cmd, Visual Studio 2022 & Visual Code.
 
 ## In cmd in windows, at cmd write: 
-    npm install -g npm 
-		npm -v
-		node -v
-## At VS Code in terminal: 
-    (cmd) cd to the project folder.
-    (cmd) ng build or npm run ng build.
-    (cmd) ng serve or npm run ng serve. 
+	npm install -g npm 
+	npm -v
+	node -v
+## At VS Code in terminal (cmd): 
+     cd to the project folder.
+     ng build or npm run ng build.
+     ng serve or npm run ng serve. 
 Ctrl + Click on the link in terminal. (presiquisite: Have the Back-End Project running correctly)
 
 
